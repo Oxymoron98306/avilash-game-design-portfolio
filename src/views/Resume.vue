@@ -70,6 +70,7 @@
 				<SkillRate name="Figma"/>
 				<SkillRate name="Excel"/>
 				<SkillRate name="Slides"/>
+				<SkillRate name="Github"/>
 				<SkillRate name="Photoshop"/>
 				<SkillRate name="Maya"/>
 			</div>
