@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\public",
+    "\\public\\img",
+    "\\public\\img\\projects",
+    "\\src",
+    "\\src\\components",
+    "\\src\\css",
+    "\\src\\data",
+    "\\src\\views"
+  ],
+  "SelectedNode": "\\src\\data\\OtherProjectsData.ts",
+  "PreviewInSolutionExplorer": false
+}

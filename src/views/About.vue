@@ -1,48 +1,73 @@
 <template>
-  <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+	<div class="about-container">
+		<div class="intro-container">
+			<div class="intro-text">
+				<h1>Hello!</h1>
 
-    <div class="paragraph">
-      <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
-      </div>
+				<div class="paragraph">
+					<div>
+						I'm <strong>Avilash Das</strong>, a Game Designer.<br/>
+						I have experience in designing intricate systems and levels for video games.
+					</div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+					<div style="margin-top: 20px;">
+						I've worked on <router-link to="/game-projects">games</router-link> (for professional, academic and personal purposes), and on <router-link to="/other-projects">other projects</router-link>. You can view my <router-link to="/resume">resume here</router-link>.
+					</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
-    </div>
+					<div style="margin-top: 40px;">
+						You can reach me at <a href="mailto:avilashdas2006@gmail.com">avilashdas2006@gmail.com</a> or <router-link to="/contact">through here</router-link>.
+					</div>
+				</div>
+			</div>
 
-    <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
-    </div>
-
-    <div style="clear:both"></div>
-
-  </div>
+			<div class="intro-image">
+				<!-- Make sure your picture in the public/img folder is named exactly avatar.png -->
+				<img src="/img/avatar.png" alt="My Avatar" />
+			</div>
+		</div>
+	</div>
 </template>
 
-<style scoped>
-.paragraph {
-  max-width: 700px;
-  margin-bottom: 20px;
-}
+<style scoped="">
+	.about-container {
+	margin-bottom: 80px;
+	}
 
-.photo {
-  margin-top: 50px;
-  text-align: center;
-}
+	/* Layout for text and image side-by-side */
+	.intro-container {
+	display: flex;
+	align-items: center; /* Vertically centers the text and image */
+	justify-content: space-between;
+	gap: 40px; /* Space between text and image */
+	}
 
-@media only screen and (min-width: 620px){
-  .paragraph {
-    float: left;
-  }
+	.intro-text {
+	flex: 1; /* Takes up remaining space */
+	}
 
-  .photo {
-    float: left;
-    padding: 10px;
-    padding-left: 80px;
-  }
-}
+	.paragraph {
+	margin-bottom: 20px;
+	}
 
+	/* Image container styling */
+	.intro-image {
+	flex-shrink: 0; /* Prevents the image container from shrinking */
+	}
+
+	/* The magic circle styling */
+	.intro-image img {
+	width: 200px;       /* Adjust this size as needed */
+	height: 200px;      /* Must be the same as width to be a perfect circle */
+	border-radius: 50%; /* This makes it circular */
+	object-fit: cover;  /* Prevents the image from stretching weirdly */
+	border: 4px solid #fce303; /* Optional: Adds the yellow border like the template */
+	}
+
+	/* Make it stack nicely on mobile screens */
+	@media (max-width: 768px) {
+	.intro-container {
+	flex-direction: column-reverse; /* Puts image on top of text on mobile */
+	text-align: center;
+	}
+	}
 </style>

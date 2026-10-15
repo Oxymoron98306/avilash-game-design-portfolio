@@ -1,106 +1,46 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
+        new ProjectData("project-6", "Game Conceptualisation Document", "img/projects/Project-Doc-Conceptualisation.png", `
     <div class="paragraph">
-      <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
-      <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
-            </div>
-            <div class="paragraph center">
-              <a href="https://www.microsoft.com/en-us/p/some-app" target="_blank"><img src="img/projects/ms-store-logo.png" alt="MS Store button" /></a>
+      <strong>Game Conceptualisation Document:</strong> I did detailed conceptualisation for a game, based on a set on certain criteria. All aspects of the concept (including the description, mechanics, dynamics, economy, progression, gameplayloop and references) has been presented in this 4 page document.
+            
+             <div class="paragraph center">
+              <a href="pdf/Conceptualisation_Document.pdf" download><img src="img/projects/Download-PDF-Logo.png" alt="Download PDF Button" /></a>
           </div>
-
-          <div class="paragraph">
-            Main features :
-            <ul>
-            <li>Some stuff</li>
-            <li>Some great stuff</li>
-            <li>More awesome stuff</li>
-            <li>And then some</li>
-            </ul>
-        </div>
 
         <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
+          <a href="img/projects/Concept-Doc-Pg-1.png" target="_blank">
+            <img class="pc-screenshot" src="img/projects/Concept-Doc-Pg-1.png" alt="Concept-Doc-Pg-1" />
+          </a>
+          <a href="img/projects/Concept-Doc-Pg-2.png" target="_blank">
+            <img class="pc-screenshot" src="img/projects/Concept-Doc-Pg-2.png" alt="Concept-Doc-Pg-2" />
+          </a>
+          <a href="img/projects/Concept-Doc-Pg-3.png" target="_blank">
+            <img class="pc-screenshot" src="img/projects/Concept-Doc-Pg-3.png" alt="Concept-Doc-Pg-3" />
+          </a>
+          <a href="img/projects/Concept-Doc-Pg-4.png" target="_blank">
+            <img class="pc-screenshot" src="img/projects/Concept-Doc-Pg-4.png" alt="Concept-Doc-Pg-4" />
+          </a>
         </div>
     `, "#c10606", false, true),
-    new ProjectData("project-7", "Drew Blood", "img/projects/project-7-icon.png", `
-    <div class="paragraph">
-                <strong>Drew Blood</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@karolina-grabowska">Karolina Grabowska</a>.
-            </div>
 
-            <div class="paragraph">
-              Main features :
-              <ul>
-              <li>Some stuff</li>
-              <li>Some great stuff</li>
-              <li>More awesome stuff</li>
-              <li>And then some</li>
-              </ul>
+    new ProjectData("project-7", "Royal Match Brief Deconstruction", "img/projects/Project-Doc-RoyalMatch.png", `
+    <div class="paragraph">
+                <strong>Royal Match Deconstruction:</strong> It is a brief deconstruction of Royal Match, with a focus on its Gameplay Loop, Mechanics, Monetisation, Progression, and Level Design.
+            </div>
+            
+            <div class="paragraph center">
+              <a href="pdf/Royal_Match_Deconstruction.pdf" download><img src="img/projects/Download-PDF-Logo.png" alt="Download PDF Button" /></a>
           </div>
 
-            <div class="paragraph">
-              <div class="notice">
-                You can download and try the app for free or purchase it directly from <a href="http://www.somewbsite.com/" target="_blank">Some website</a>
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
-            </div>`, "#1ca1e2"),
-    new ProjectData("project-8", "The Art of Walking", "img/projects/project-8-icon.png", `
-    <div class="paragraph">
-                <strong>The Art of Walking</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-            </div>
-
-            <div class="paragraph center">
-              <a href="https://play.google.com/store/apps/details?id=someapp" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-          </div>
-
-          <div class="paragraph">
-          Main features :
-          <ul>
-          <li>Some stuff</li>
-          <li>Some great stuff</li>
-          <li>More awesome stuff</li>
-          <li>And then some</li>
-          </ul>
-      </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-            </div>`),
-    new ProjectData("project-9", "Nikolable", "img/projects/project-9-icon.png", `
-     <div class="paragraph">
-                <strong>Nikolable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@goumbik">Lukas</a>.
-            </div>
-
-            <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>`),
+        <div class="paragraph center">
+          <a href="img/projects/RoyalMatch-Decons-Pg-1.png" target="_blank">
+            <img class="pc-screenshot" src="img/projects/RoyalMatch-Decons-Pg-1.png" alt="RoyalMatch-Decons-Pg-1" />
+          </a>
+          <a href="img/projects/RoyalMatch-Decons-Pg-2.png" target="_blank">
+            <img class="pc-screenshot" src="img/projects/RoyalMatch-Decons-Pg-2.png" alt="RoyalMatch-Decons-Pg-2" />
+          </a>
+        </div>
+    `, "#1ca1e2"),
 ];

@@ -1,153 +1,105 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
+    new ProjectData("Numdash", "Numdash", "img/projects/Project-Art-Numdash_Placeholder.png", 
     `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     <strong>Numdash</strong> is a 3D game which teaches quick mathametical calculations through the endless runner format. 
+     <br/><strong>Genre:</strong> Hybrid-Casual, Endless Runner, Educational, Building.
     </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-    </div>
-
+    
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li><strong>Educational Material Translation:</strong> Though the gameplay is that of an endless runner, but the The educational material from class 1 to 5.</li>
+        <li><strong>Mixed Progression:</strong> Two-layered progression system (the difficulty and syllabus progression is tied to the endless runner mode. The progression of the main progression is tied to the building mode).</li>
         </ul>
     </div>
 
-    <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-    </div>
-    `, "#23bd69", true),
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
     <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
+        <div class="notice">
+        <strong>Android build available on </strong> <a href="" target="_blank">Playstore</a>.
+        </div>
     </div>
+
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <img class="pc-screenshot" src="img/projects/Project-Art-Numdash_Placeholder.png" alt="Numdash Placeholder Screenshot" />
+    </div>
+    `, "#e48246", true), // true means it's a game, false means it's an "other" project
+
+    new ProjectData("solar-brawl", "Solar Brawl", "img/projects/Project-Art-Solar_Brawl.png", 
+    `
+    <div class="paragraph">
+     <strong>Solar Brawl</strong> is a 2D arena shooter where players battle eachother while tackling the turbulent physics of space. It was made in the span of 22 hours for a game jam competition. 
+     <br/><strong>Genre:</strong> PvP, Local Multiplayer, Arena Shooter <strong>[Requires at least 1 gamepad]</strong>
+    </div>
+    
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li><strong>Physics Based Movement:</strong> The players have no direct control over their character's movement. Only way for them to move is by the recoil of their projectile, or the through the transfer of momentum of an object that hits them.</li>
+        <li><strong>Spatial Awareness:</strong> There is zero gravity and the bullets bounce off walls, so the players have be very careful about their surroundings.</li>
+        <li><strong>Quick but Calculated Responses:</strong> The game encourages the players to have quick responses for blocking. But a block meter needs to fill for the block to happen, so the players have to calculate their timing.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+        <strong>Windows build available on </strong> <a href="https://avilash-das.itch.io/solar-brawl" target="_blank">itch.io/solar-brawl</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/Project-Art-Solar_Brawl.png" alt="Solar Brawl Screenshot" />
+    </div>
+    `, "#e48246", true), // true means it's a game, false means it's an "other" project
+
+
+    new ProjectData("substantia-venefica", "Substantia Venefica", "img/projects/Project-Art-Substantia_Venefica.png", `
+    <div class="paragraph">
+        <strong>Substantia Venefica</strong> is a First-Person shooter that takes place in a flesh bound hellscape where our protagonist has one goal... to destroy whatever is holding this place together. 
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li><strong>Spatial Awerness based Shooting:</strong> The evade system of the game is set-up based on the spatial awerness and active positioning of the player.</li>
+        <li><strong>Bullet Hell:</strong> The boss has multiple phases that gets more and more agressive with different attack patterns. Almost mimicing the aspects of a bullet hell.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+        <strong>Windows build available on </strong> <a href="https://avilash-das.itch.io/substantia-venefica" target="_blank">itch.io/substantia-venefica</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/Project-Art-Substantia_Venefica.png" alt="Substantia Venefica Screenshot" />
+    </div>
+    `, "#383838", true),
+
+        new ProjectData("spatial-launch", "Spatial Launch", "img/projects/Project-Art-Spatial_Launch.png", `
+    <div class="paragraph">
+        <strong>Spatial Launch</strong> is a 2D rocket racing game.
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li><strong>Tackling Gravity:</strong> The players have to constantly fight gravity to move through the path.</li>
+        <li><strong>Resource Collection:</strong> Fuel containers need to be collected for the rockets to keep flying.</li>
         </ul>
     </div>
 
     <div class="paragraph">
     <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        <strong>Playable on</strong> <a href="https://avilash-das.itch.io/spatial-launch" target="_blank">itch.io/spatial-launch</a>.
     </div>
     </div>
 
     <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="img/projects/Project-Art-Spatial_Launch.png" alt="Spatial Launch Screenshot" />
     </div>
-    `, "#5a78af"),
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
-    <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-    </div>
-    `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
-    <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
-    `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
-    <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
+    `, "#5a78af", true),
 ];
