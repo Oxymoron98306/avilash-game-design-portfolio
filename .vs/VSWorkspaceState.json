@@ -8,8 +8,9 @@
     "\\src\\components",
     "\\src\\css",
     "\\src\\data",
+    "\\src\\router",
     "\\src\\views"
   ],
-  "SelectedNode": "\\src\\data\\OtherProjectsData.ts",
+  "SelectedNode": "\\src\\views\\Resume.vue",
   "PreviewInSolutionExplorer": false
 }
